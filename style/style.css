@@ -140,8 +140,17 @@ footer {
   display: flex;
   gap: 100px;
   padding: 130px 230px;
-  background-color: background: rgb(255, 248, 243);;
+  background-color: rgb(255, 248, 243);
 }
 .footer-column {
   width: 50%;
+}
+/* responsive media Quarry */
+@media  screen and (max-width:576px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  .skills {
+    margin: 208px 10px 50px 10px;
+}
 }
