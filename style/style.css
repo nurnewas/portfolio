@@ -6,7 +6,7 @@
 }
 
 /* Shared Style */
-.txt-cen{
+.txt-cen {
   text-align: center;
 }
 .secondary-bg {
@@ -100,7 +100,7 @@ nav > ul > li > a {
 /* main Style  */
 main {
   max-width: 1140px;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 /* About Section  */
 .about {
@@ -114,11 +114,11 @@ main {
   justify-content: space-around;
 }
 .item-discription {
- font-weight: 600px;
- font-size: 20px;
+  font-weight: 600px;
+  font-size: 20px;
 }
 .item-tittle {
-  color: rgb(117, 117, 117)
+  color: rgb(117, 117, 117);
 }
 .skills {
   margin: 208px 116px 50px 116px;
@@ -146,11 +146,24 @@ footer {
   width: 50%;
 }
 /* responsive media Quarry */
-@media  screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .skills-container {
     flex-direction: column;
   }
   .skills {
     margin: 208px 10px 50px 10px;
-}
+  }
+    footer {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      padding: 5px 5px;
+      background-color: rgb(255, 248, 243);
+  }
+  .footer-column{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
 }
